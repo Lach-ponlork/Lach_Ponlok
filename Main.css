@@ -1,3 +1,4 @@
+
 .head a{
     
     font-family: 'Quicksand', sans-serif;
@@ -70,12 +71,242 @@ section{
     height: 400x;
 }
 .img-profile-edit{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     box-shadow: 3px black;
     border: 5px solid whitesmoke;
     border-radius: 50%;
 }
 .curser:hover{
    color: #FF0000;
+}
+.P-Logo{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    color: #FF0000;
+}
+section h2{
+  
+    font-size: 32;
+    font-weight: 600;
+}
+section h6{
+    font-size: 20;
+    font-weight: 100;
+}
+footer{
+    border-top: 1px solid;
+    margin-top: 5rem;
+    padding-top: 15px;
+}
+.youtube{
+   color: #FF0000;
+}
+.facebooke{
+    color: #4267B2;
+}
+.Instagram{
+    color: #e95950;
+}
+.Twitter{
+    color: #1DA1F2;
+}
+footer h4{
+ font-weight: 700;
+}
+footer p{
+    font-size: 12px;
+    font-weight: 600;
+}
+footer a{
+    /* font-size: 14px; */
+    font-weight: 500;
+}
+/* our project */
+.service{
+   background:rgb(25, 25, 204);
+    width: 100%;
+     padding: 30px 0px;  
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding:20px 35px ;
+    background: #191919;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    font-size: 23px;
+    color: white;
+    margin-bottom: 15px;
+}
+.pra{
+    font-size: 16px;
+    line-height: 27px;
+    color: #fcfc;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition:.4s;
+
+}
+/* service */
+ .container1 h1{
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 60px;
+   font-weight: 600;
+   position: relative;
+} 
+.container1 h1::after{
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    bottom: -5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+}
+.services{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+     background: transparent; 
+     transition: transform0.5s,background 0.5s;
+}
+.services i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #303ef7;
+}
+.services h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.services:hover{
+    background: #303ef7;
+    color: #fff;
+    transform: scale(1.05);
+}
+.services:hover i{
+    color: #fff;
+}
+.container h6{
+    line-height: 27px;
+    text-align:left;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    
+}
+.contact-in{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px #666;
+    columns: auto;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-map iframe{
+    width: 100%;
+    height:100%;
+    padding: 30px;
+}
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-form h2{
+    margin-bottom: 10px;
+   text-align: center;
+   font-family: sans-serif;
+   font-weight: 700;
+
+}
+.contact-form-txt{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.contact-form-txtarea{
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.contact-form-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background:#8e2de2 ;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 18px;
 }
